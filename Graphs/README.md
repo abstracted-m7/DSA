@@ -31,7 +31,7 @@ This folder contains implementations and practice problems related to graph data
 ## 📁 File Structure
 ```
 Graphs/
-├── implementations/
+├── Code/
 └── notes.md
 ```
 
