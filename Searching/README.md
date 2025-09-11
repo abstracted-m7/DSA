@@ -11,26 +11,11 @@ Searching/
 │   ├── linear-search-variations.py
 │   └── problems/
 ├── Binary-Search/
-│   ├── iterative-binary-search.py
-│   ├── recursive-binary-search.py
-│   ├── binary-search-variations.py
-│   └── problems/
-├── Advanced-Search/
-│   ├── ternary-search.py
-│   ├── exponential-search.py
-│   ├── interpolation-search.py
-│   └── fibonacci-search.py
-├── Data-Structure-Specific/
-│   ├── tree-search.py
-│   ├── graph-search.py
-│   └── hash-search.py
-├── String-Search/
-│   ├── naive-string-search.py
-│   ├── kmp-algorithm.py
-│   ├── rabin-karp.py
-│   └── boyer-moore.py
-├── Interview-Problems/
-└── Notes/
+    ├── iterative-binary-search.py
+    ├── recursive-binary-search.py
+    ├── binary-search-variations.py
+    └── problems/
+
 ```
 
 ## 🎯 Searching Algorithms Implemented
