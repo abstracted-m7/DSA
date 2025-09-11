@@ -177,9 +177,9 @@ Examples:
 ## 📞 Contact
 
 For questions, suggestions, or discussions about algorithms and data structures:
-- **Email**: [Your email]
+- **Email**: [manishgiri8101@gmail.com]
 - **LinkedIn**: [Your LinkedIn profile]
-- **GitHub**: [Your GitHub profile]
+- **GitHub**: [[Your GitHub profile](https://github.com/abstracted-m7)]
 
 ## 📜 License
 
