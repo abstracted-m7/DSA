@@ -3,55 +3,6 @@
 ## 📊 Overview
 This folder contains comprehensive implementations of array operations, algorithms, and problem-solving techniques. Arrays are the fundamental data structure with elements stored in contiguous memory locations.
 
-## 📁 Folder Structure
-```
-Array/
-├── Basic-Operations/
-│   ├── array-declaration.py
-│   ├── insertion-operations.py
-│   ├── deletion-operations.py
-│   ├── traversal-search.py
-│   └── array-utilities.py
-├── Sorting-Algorithms/
-│   ├── bubble-sort.py
-│   ├── selection-sort.py
-│   ├── insertion-sort.py
-│   ├── merge-sort.py
-│   ├── quick-sort.py
-│   └── heap-sort.py
-├── Searching-Techniques/
-│   ├── linear-search.py
-│   ├── binary-search.py
-│   ├── ternary-search.py
-│   └── search-variations.py
-├── Two-Pointer-Techniques/
-│   ├── two-sum-problem.py
-│   ├── three-sum-problem.py
-│   ├── pair-sum-variations.py
-│   └── sliding-window.py
-├── Subarray-Problems/
-│   ├── maximum-subarray-sum.py
-│   ├── subarray-with-given-sum.py
-│   ├── longest-subarray.py
-│   └── subarray-variations.py
-├── Matrix-Operations/
-│   ├── 2d-array-basics.py
-│   ├── matrix-multiplication.py
-│   ├── matrix-rotation.py
-│   └── spiral-traversal.py
-├── Advanced-Problems/
-│   ├── dutch-national-flag.py
-│   ├── merge-intervals.py
-│   ├── stock-buy-sell.py
-│   └── trapping-rainwater.py
-├── Dynamic-Arrays/
-│   ├── resizable-arrays.py
-│   ├── arraylist-implementation.py
-│   └── vector-operations.py
-├── Interview-Questions/
-└── Notes/
-```
-
 ## 🏗️ Array Types & Implementations
 
 ### 1. Static Arrays
