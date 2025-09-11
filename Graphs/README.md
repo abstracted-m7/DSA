@@ -32,7 +32,7 @@ This folder contains implementations and practice problems related to graph data
 ```
 Graphs/
 ├── implementations/
-└── notes/
+└── notes.md
 ```
 
 ## 🎯 Key Concepts
