@@ -3,37 +3,6 @@
 ## 📚 Overview
 This folder contains comprehensive implementations of stack data structure using different approaches and various stack-based problem solutions following the LIFO (Last In, First Out) principle.
 
-## 📁 Folder Structure
-```
-Stack/
-├── Implementations/
-│   ├── array-based-stack.py
-│   ├── linked-list-stack.py
-│   ├── dynamic-stack.py
-│   └── stack-using-queues.py
-├── Basic-Operations/
-│   ├── push-pop-operations.py
-│   ├── peek-top-operations.py
-│   ├── stack-traversal.py
-│   └── stack-utilities.py
-├── Applications/
-│   ├── expression-evaluation/
-│   ├── parentheses-matching/
-│   ├── infix-postfix-conversion/
-│   └── function-call-stack/
-├── Advanced-Problems/
-│   ├── next-greater-element.py
-│   ├── largest-rectangle-histogram.py
-│   ├── valid-parentheses.py
-│   └── stock-span-problem.py
-├── Two-Stack-Problems/
-│   ├── implement-queue-using-stacks.py
-│   ├── min-stack.py
-│   └── stack-with-getmin.py
-├── Interview-Questions/
-└── Notes/
-```
-
 ## 🏗️ Stack Implementations
 
 ### 1. Array-Based Stack
