@@ -32,8 +32,6 @@ This folder contains implementations and practice problems related to graph data
 ```
 Graphs/
 ├── implementations/
-├── problems/
-├── solutions/
 └── notes/
 ```
 
@@ -43,13 +41,6 @@ Graphs/
 - Weighted vs Unweighted graphs
 - Cyclic vs Acyclic graphs (DAG)
 - Connected vs Disconnected graphs
-
-## ⏰ Time Complexities
-| Algorithm | Time Complexity | Space Complexity |
-|-----------|----------------|------------------|
-| BFS/DFS | O(V + E) | O(V) |
-| Dijkstra | O((V + E) log V) | O(V) |
-| Floyd-Warshall | O(V³) | O(V²) |
 
 ## 🔗 Common Applications
 - Social networks
