@@ -178,7 +178,7 @@ Examples:
 
 For questions, suggestions, or discussions about algorithms and data structures:
 - **Email**: [[Manish Giri](manishgiri8101@gmail.com)]
-- **LinkedIn**: [Manish Giri]
+- **LinkedIn**: [[Manish Giri](https://linkedin.com/in/manish-giri-46a529254)]
 - **GitHub**: [[GitHub profile](https://github.com/abstracted-m7)]
 
 ## 📜 License
