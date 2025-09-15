@@ -1,3 +1,4 @@
+
 import heapq
 import math
 
@@ -15,6 +16,7 @@ class Graph:
         self.edges[city1].append((city2, cost))
         self.edges[city2].append((city1, cost))  # assuming undirected roads
 
+    #heuristic calculation
     def heuristic(self, city1, city2, method='euclidean'):
         x1, y1 = self.coordinates[city1]
         x2, y2 = self.coordinates[city2]
@@ -25,7 +27,21 @@ class Graph:
         else:
             return 0  # no heuristic
 
-def a_star_search(graph, start, goal, heuristic_method='euclidean'):
+    #print the graph's details
+    def __str__(self):
+        result = "Cities and coordinates:\n"
+        for city, (x, y) in self.coordinates.items():
+            result += f"  {city}: ({x}, {y})\n"
+        result += "Roads and costs:\n"
+        for city, neighbors in self.edges.items():
+            for neighbor, cost in neighbors:
+                # To avoid duplicate edges in undirected graph, only print if city < neighbor alphabetically
+                if city < neighbor:
+                    result += f"  {city} <-> {neighbor} : cost {cost}\n"
+        return result
+
+#A-star search function
+def a_star_search(graph, start, goal, heuristic_method):
     open_set = []
     heapq.heappush(open_set, (0, start))  # (f_score, city)
     
@@ -61,7 +77,8 @@ def a_star_search(graph, start, goal, heuristic_method='euclidean'):
     
     return None, float('inf')  # no path found
 
-# Example usage
+
+# main function
 if __name__ == "__main__":
     g = Graph()
     # Add cities with coordinates
@@ -79,5 +96,7 @@ if __name__ == "__main__":
     g.add_road('C', 'D', 2)
     g.add_road('D', 'E', 1)
 
-    path, cost = a_star_search(g, 'A', 'E', heuristic_method='manhattan')
+    heuristic_method = input("Choise method [manhattan, euclidean]: ")
+    path, cost = a_star_search(g, 'A', 'E', heuristic_method)
+    print(f"Graph Details:\n{g}")
     print(f"Path: {path}, Cost: {cost}")
